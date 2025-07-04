@@ -29,14 +29,14 @@
 
 ```bash
 SmartHireAI/
-├── data/               # Sample resumes / job descriptions
-├── model/              # Trained model files
-├── notebooks/          # Jupyter Notebooks (EDA, training, evaluation)
-├── src/
-│   ├── __init__.py
-│   ├── preprocess.py   # Data cleaning and feature extraction
-│   ├── model.py        # Model training and inference
-│   └── api.py          # (Optional) REST API endpoint
-├── requirements.txt
+├── .env
+├── .gitignore
+├── LICENSE
+├── LLM.py
 ├── README.md
-└── .gitignore
+├── email_management.py
+├── email_utils.py
+├── intervue.py
+├── main.py
+├── read_pdf.py
+├── __pycache__/              # (ignored by .gitignore)
